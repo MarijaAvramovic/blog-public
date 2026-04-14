@@ -230,3 +230,97 @@ footer {
   }
 }
 
+
+/* ====================== AUTH PAGES ====================== */
+
+.auth-page {
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 1rem;
+}
+
+.auth-card {
+  background: white;
+  max-width: 420px;
+  width: 100%;
+  padding: 2.5rem 2rem;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(230, 57, 57, 0.15);
+  text-align: center;
+}
+
+.auth-card h2 {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 2.2rem;
+  color: #e63939;
+  margin-bottom: 0.5rem;
+}
+
+.auth-card p {
+  color: #666;
+  margin-bottom: 2rem;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+  text-align: left;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 500;
+  color: #444;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 14px 16px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  font-size: 1.05rem;
+  transition: border 0.3s;
+}
+
+.form-group input:focus {
+  outline: none;
+  border-color: #f77f00;
+  box-shadow: 0 0 0 3px rgba(247, 127, 0, 0.15);
+}
+
+.btn-login {
+  width: 100%;
+  padding: 14px;
+  background: linear-gradient(to right, #e63939, #f77f00);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 1rem;
+  transition: all 0.3s;
+}
+
+.btn-login:hover {
+  background: linear-gradient(to right, #f77f00, #ffb700);
+  transform: translateY(-2px);
+}
+
+.auth-links {
+  margin-top: 2rem;
+  color: #666;
+}
+
+.auth-links a {
+  color: #e63939;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.auth-links a:hover {
+  text-decoration: underline;
+}
+
