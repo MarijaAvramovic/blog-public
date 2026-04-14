@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Post - My Blog</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <div class="header-content">
+      <h1><a href="index.html">My Blog</a></h1>
+      <nav id="nav"></nav>
+    </div>
+  </header>
+
+  <main class="post-page">
+    <div id="post-content">
+      <!-- Post will be loaded here -->
+    </div>
+
+    <div id="comments-section" style="display: none;">
+      <h3>Comments</h3>
+      <div id="comments-list"></div>
+
+      <div id="comment-form" style="display: none;">
+        <h4>Leave a Comment</h4>
+        <textarea id="comment-text" rows="4" placeholder="Write your comment here..."></textarea>
+        <button onclick="submitComment()">Post Comment</button>
+      </div>
+    </div>
+  </main>
+
+  <script type="module" src="js/post.js"></script>
+</body>
+</html>

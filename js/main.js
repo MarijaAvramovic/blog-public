@@ -61,14 +61,15 @@ async function loadPosts() {
   const token = localStorage.getItem('token');
   const username = localStorage.getItem('username');
   const name = localStorage.getItem('name');
-
+const capitalized = name.charAt(0).toUpperCase() + name.slice(1);
+ 
 
   if (token && username) {
     // User is logged in → show name and logout
     nav.innerHTML = `
       <a href="index.html">Home</a>
       <span style="color: white; font-weight: 500; padding: 10px 18px;">
-        Hello, ${name}
+        Hello, ${capitalized}
       </span>
       <a href="#" onclick="logoutUser(event)">Logout</a>
     `;
