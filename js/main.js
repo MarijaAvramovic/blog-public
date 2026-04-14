@@ -55,5 +55,41 @@ async function loadPosts() {
       </p>`;
   }
 }
- 
+ function updateAuthUI() {
+  const nav = document.querySelector('nav');   // finds the <nav> in index.html
+  
+  const token = localStorage.getItem('token');
+  const username = localStorage.getItem('username');
+
+  if (token && username) {
+    // User is logged in → show name and logout
+    nav.innerHTML = `
+      <a href="index.html">Home</a>
+      <span style="color: white; font-weight: 500; padding: 10px 18px;">
+        Hello, ${username}
+      </span>
+      <a href="#" onclick="logoutUser(event)">Logout</a>
+    `;
+  } else {
+    // User is not logged in → show login/register
+    nav.innerHTML = `
+      <a href="index.html">Home</a>
+      <a href="login.html">Login</a>
+      <a href="register.html">Register</a>
+      <a href="admin-login.html" class="admin-link">Admin Login</a>
+    `;
+  }
+}
+
+// Logout function
+window.logoutUser = function(e) {
+  e.preventDefault();
+  localStorage.removeItem('token');
+  localStorage.removeItem('username');
+  alert("You have been logged out.");
+  window.location.href = 'index.html';
+};
+
+// ==================== Initialize everything ====================
 loadPosts();
+updateAuthUI();
