@@ -103,7 +103,7 @@ window.submitComment = async function() {
     const result = await response.json();
 
     if (result.success) {
-      alert("Comment posted successfully!");
+     
       document.getElementById('comment-text').value = '';
       loadPost(); // refresh comments
     } else {
