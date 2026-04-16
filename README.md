@@ -1,5 +1,20 @@
 # blog-public
 
+App runs on:
+https://marijaavramovic.github.io/blog-public/
+
+<img src="./blog-pic/Screenshot 2026-04-15 at 9.25.36 PM.png" width="50%">
+
+Frontend for Admin runs on:
+https://blog-admin-marijaa.netlify.app/
+ 
+
+Backend API is running on:
+https://blog-api-wwtw.onrender.com/
+
+ 
+
+
 A simple and responsive public blog website where users can read posts and leave comments.
 
 This app connects to the Blog API and displays published posts only.
@@ -14,14 +29,5 @@ This app connects to the Blog API and displays published posts only.
 Vanilla (or HTML/CSS/JS)
 Fetch API
 CSS  
-
-App runs on:
-
-http://localhost:5173
-🔌 API Configuration
-
-Make sure your backend API is running on:
-
-http://localhost:4100
 
  
