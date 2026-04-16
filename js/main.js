@@ -79,7 +79,7 @@ const capitalized = name.charAt(0).toUpperCase() + name.slice(1);
       <a href="index.html">Home</a>
       <a href="login.html">Login</a>
       <a href="register.html">Register</a>
-      <a href="admin-login.html" class="admin-link">Admin Login</a>
+      <a href="https://blog-admin-marijaa.netlify.app/" class="admin-link">Admin Login</a>
     `;
   }
 }
