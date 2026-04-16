@@ -13,6 +13,15 @@ https://blog-admin-marijaa.netlify.app/
 Backend API is running on:
 https://blog-api-wwtw.onrender.com/
 
+
+Separate GitHub repos for each of the three apps:
+
+ Public: https://github.com/MarijaAvramovic/blog-public (current)
+
+ Admin: https://github.com/MarijaAvramovic/blog-admin
+
+ API: https://github.com/MarijaAvramovic/blog-api
+
  
 
 
