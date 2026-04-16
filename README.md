@@ -4,6 +4,7 @@ App runs on:
 https://marijaavramovic.github.io/blog-public/
 
 <img src="./blog-pic/Screenshot 2026-04-15 at 9.25.36 PM.png" width="50%">
+<img src="./blog-pic/Screenshot 2026-04-15 at 9.26.39 PM.png" width="50%">
 
 Frontend for Admin runs on:
 https://blog-admin-marijaa.netlify.app/
