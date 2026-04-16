@@ -1,6 +1,5 @@
 // js/post.js
-
-const API_BASE = 'http://localhost:4100';
+const API_BASE = 'https://blog-api-wwtw.onrender.com';  
 const urlParams = new URLSearchParams(window.location.search);
 const postId = urlParams.get('id');
 
