@@ -3,12 +3,12 @@
 App runs on:
 https://marijaavramovic.github.io/blog-public/
 
-<img src="./blog-pic/public.png"">
+<img src="./blog-pic/public.png">
 
 
 Frontend for Admin runs on:
 https://blog-admin-marijaa.netlify.app/
- <img src="./blog-pic/admin.png" ">
+ <img src="./blog-pic/admin.png" >
 
 Backend API is running on:
 https://blog-api-wwtw.onrender.com/
