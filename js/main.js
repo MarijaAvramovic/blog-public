@@ -1,6 +1,6 @@
 // js/main.js
 
-const API_BASE = 'http://localhost:4100';    
+const API_BASE = 'https://blog-api-wwtw.onrender.com';    
 
 async function loadPosts() {
   const postsContainer = document.getElementById('posts-container');
